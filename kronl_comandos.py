@@ -5,10 +5,10 @@ import paho.mqtt.client as mqtt
 import boto3
 import ssl
 #configurações do broker: 
-Broker = 'servermqtt.duckdns.org'
-PortaBroker = 1883 
-Usuario = 'afira'
-Senha = 'afira'
+Broker = 'mqtt.hidroview.com.br'
+PortaBroker = 1883
+Usuario = 'kronprd'
+Senha = 'm3sJbRhqqRjbVCuM9dcGWuCt'
 KeepAliveBroker = 60
 
 sqs = boto3.resource('sqs', region_name='us-east-1')
